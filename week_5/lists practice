@@ -1,0 +1,29 @@
+cars = ["Ford", "Volvo", "BMW"]
+# add 4 new cars in the list
+cars.insert(0, "Honda")
+cars.insert(0, "Subaru")
+cars.insert(0, "Acura")
+cars.insert(0, "Ram")
+cars.append("Honda")
+# print pit the list of cars in an f-string
+# that says "The cars in the list are:"
+print(f"The cars in the list are: {cars}")
+
+#replace the last element in the list with another car
+cars[-1] = "GMC"
+print(f"The cars in the list are: {cars}")
+
+# replace the 3rd element in the list with another car
+#print out the list of cars in an f-string
+cars[2] = "Lamborghini"
+print(f"The cars in the list are: {cars}")
+
+#insert a new car in the 2nd position
+# print out the list of cars in an f-string
+cars.insert(1, "Nissan")
+print(f"The cars in the list are: {cars}")
+
+#remove the 3rd element in the list
+# print out the list of cars in an f-string
+cars.remove("Volvo")
+print(f"The cars in the list are: {cars}")
