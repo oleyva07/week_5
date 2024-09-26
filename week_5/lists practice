@@ -35,3 +35,22 @@ for car in cars:
     if len(cars) == 10:
         print("You have reached the maximum number of cars")
         break
+
+#CHALLENGE
+
+friends = ["Mikey"]
+for friend in friends:
+    add_friend = input("Enter friend name: ")
+    friends.append(add_friend)
+    print(f'List of friends: {friends}')
+    if len(friends) == 4:
+        break
+
+friends[-1] = "Jesse"
+print(f'List of friends: {friends}')
+
+friends[2] = "Smith"
+print(f'List of friends: {friends}')
+
+friends.insert(1, "Donald")
+print(f'List of friends: {friends}')
