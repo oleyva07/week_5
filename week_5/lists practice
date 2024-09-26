@@ -9,21 +9,21 @@ cars.append("Honda")
 # that says "The cars in the list are:"
 print(f"The cars in the list are: {cars}")
 
-#replace the last element in the list with another car
+# replace the last element in the list with another car
 cars[-1] = "GMC"
 print(f"The cars in the list are: {cars}")
 
 # replace the 3rd element in the list with another car
-#print out the list of cars in an f-string
+# print out the list of cars in an f-string
 cars[2] = "Lamborghini"
 print(f"The cars in the list are: {cars}")
 
-#insert a new car in the 2nd position
+# insert a new car in the 2nd position
 # print out the list of cars in an f-string
 cars.insert(1, "Nissan")
 print(f"The cars in the list are: {cars}")
 
-#remove the 3rd element in the list
+# remove the 3rd element in the list
 # print out the list of cars in an f-string
 cars.remove("Volvo")
 print(f"The cars in the list are: {cars}")
